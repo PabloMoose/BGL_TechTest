@@ -65,16 +65,27 @@ Each scenario follows the same Cucumber format using parameters to control the i
 Additional scenarios can be defined in the same format by setting the Cucumber parameters.
 
 Given The BGL Test Site is opened in Firefox for "Scenario Name"
+
  When A valid postcode is entered - "Postcode"
+ 
   And I "Do or Do Not" have my bill (available options Do | DoNot)
+  
   And I want to compare "Gas, Electricity or both"  (available options 'GasAndElectricity' | 'GasOnly' | 'ElectricityOnly')
+  
   And The Gas and Electricity "Are or Are Not" supplied by the same supplier (available options 'Are' | 'AreNot')
+  
   And The Electricity is supplied by "Electricity Supplier Name" 
+  
   And The Gas is supplied by "Gas Supplier Name"
+  
   And The Electricity Tariff is set as "Electricity Supplier Tariff"
+  
   And The Gas Tariff is set as "Gas Supplier Tariff" 
+  
   And The Tariff is selected as "Tariff to search for" and the Terms and Conditions are accepted (available options 'all' | 'variable' | 'fixed')
+  
  Then The results table is displayed to the user
+ 
 
 
 ------------------------------------------------------------------------
@@ -83,16 +94,27 @@ Test Description
 Each scenario follows a defined work flow based on the input parameters defined in the 'feature' files (..\features\*.feature)
 
 (1)  Opens the Firefox browser and navigates to the BGL test site
+
 (2)  Selects the Bill option (Has Bill or Does Not Have Bill)
+
 (3)  Selects the Search Options (Gas and Electricity, Gas Only or Electricity Only)
+
 (4)  Selects the Same Supplier option (if both Gas and Electricty are provided by the same supplier or not)
+
 (5)  Selects the Electricity Supplier (if specified)
+
 (6)  Selects the Gas Supplier (if specified)
+
 (7)  Selects the Electricity Tariff (if specified)
+
 (8)  Selects the Gas Tariff (if specified)
+
 (9)  Selects the Tariff type to search for (Fixed, Varaible or All)
+
 (10) Displays the search results and checks that the main tables are displayed 
+
 (11) Performs individual checks on the Current Tarrif details, checks the Electric/Gas Suppliers and the Electric/Gas Tariffs
+
 (12) Closes the Firefox browser
 
 
@@ -200,8 +222,14 @@ Future Development
 The following are considerations for future developments and improvements to the current tests
 
 (1) Add support for other browsers (e.g. IE, Chrome, Safari) and enable this as a parameter
+
 (2) Add more scenarios
+
 (3) Integrate into Jenkins or other automated server framework
+
 (4) Upgrade the version of Selenium used (currently using 2.53, version 3 is available now)
+
 (5) Allow for extra configuration settings to be set such as turning screenshots on/off
+
 (6) Additional reporting with pass/fail for each individual check on the Results Page
+
