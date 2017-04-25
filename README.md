@@ -146,10 +146,10 @@ If running the test within Eclipe, the results will be displayed within the JUni
 ------------------------------------------------------------------------
 Test Execution Prerequisites
 ------------------------------------------------------------------------
-Mac OS X El Capitan or Windows 7 (tested environments)
-JRE Version 1.8.0_131 or higher
-Firefox up to version 46.0 (tested)
-50MB of free disc space (for executable Jar, screenshots and test reports)
+> Mac OS X El Capitan or Windows 7 (tested environments)
+> JRE Version 1.8.0_131 or higher
+> Firefox up to version 46.0 (tested)
+> 50MB of free disc space (for executable Jar, screenshots and test reports)
 
 
 ------------------------------------------------------------------------
