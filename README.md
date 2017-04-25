@@ -1,9 +1,9 @@
 # BGL_TechTest
 Tech Test for BGL
 
-========================================================================
+------------------------------------------------------------------------
 README
-========================================================================
+------------------------------------------------------------------------
 
 ------------------------------------------------------------------------
 Author
@@ -64,16 +64,16 @@ Cucumber Scenario Format
 Each scenario follows the same Cucumber format using parameters to control the inputs to each test.
 Additional scenarios can be defined in the same format by setting the Cucumber parameters.
 
-Given The BGL Test Site is opened in Firefox for "<Scenario Name>"
- When A valid postcode is entered - "<Postcode>"
-  And I "<Do or Do Not>" have my bill (available options Do | DoNot)
-  And I want to compare "<Gas, Electricity or both>"  (available options 'GasAndElectricity' | 'GasOnly' | 'ElectricityOnly')
-  And The Gas and Electricity "<Are or Are Not>" supplied by the same supplier (available options 'Are' | 'AreNot')
-  And The Electricity is supplied by "<Electricity Supplier Name>" 
-  And The Gas is supplied by "<Gas Supplier Name>"
-  And The Electricity Tariff is set as "<Electricity Supplier Tariff>"
-  And The Gas Tariff is set as "<Gas Supplier Tariff>" 
-  And The Tariff is selected as "<Tariff to search for>" and the Terms and Conditions are accepted (available options 'all' | 'variable' | 'fixed')
+Given The BGL Test Site is opened in Firefox for "Scenario Name"
+ When A valid postcode is entered - "Postcode"
+  And I "Do or Do Not" have my bill (available options Do | DoNot)
+  And I want to compare "Gas, Electricity or both"  (available options 'GasAndElectricity' | 'GasOnly' | 'ElectricityOnly')
+  And The Gas and Electricity "Are or Are Not" supplied by the same supplier (available options 'Are' | 'AreNot')
+  And The Electricity is supplied by "Electricity Supplier Name" 
+  And The Gas is supplied by "Gas Supplier Name"
+  And The Electricity Tariff is set as "Electricity Supplier Tariff"
+  And The Gas Tariff is set as "Gas Supplier Tariff" 
+  And The Tariff is selected as "Tariff to search for" and the Terms and Conditions are accepted (available options 'all' | 'variable' | 'fixed')
  Then The results table is displayed to the user
 
 
@@ -108,6 +108,7 @@ This summary will show the number of scenarios and steps executed and the number
 E.g. 
 
 > 9 scenarios (9 passed)
+
 > 99 steps (99 passed)
 
 If running the test within Eclipe, the results will be displayed within the JUnit window.
@@ -175,7 +176,7 @@ Screen Shots
 Each automated test (scenario) will produce a screen shot of the results page, this will be saved in the ..\screenshots folder.
 The naming format for these screenshots is -
 
-<Scenario Name>BGL_TEST_<year>-<month>-<day>-<hour>-<minute>-<second>_<browser>.png
+*Scenario Name*BGL_TEST_*year*-*month*-*day*-*hour*-*minute*-*second*_*browser*.png
 
 E.g. SCENARIO_01.01BGL_TEST_2017-04-25-19-14-21_FIREFOX.png
 
