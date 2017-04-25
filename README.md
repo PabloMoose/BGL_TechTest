@@ -16,7 +16,8 @@ Tel	  : 07799 862939
 ------------------------------------------------------------------------
 Overview
 ------------------------------------------------------------------------
-This readme is for the SDET Tech Test framework provided by Paul Musson
+This readme is for the SDET Tech Test framework provided by Paul Musson.
+
 Below are deatils of the automated tests created to test the Compare the Market User Stories web site.
 
 
@@ -38,12 +39,14 @@ Cucumber Scenarios
 ------------------------------------------------------------------------
 The following Cucumber Scenarios were created -
 
+
 3 High Priority Scenarios - 
 NOTE: These scenarios are defined in the '..\features\Priority01.feature' file
 
 - @Secenario_01.01 - Scenario: Test - Gas And Electricity - With Bill - E.ON - nPower - Suppliers Are Not Same - 
 - @Secenario_01.02 - Scenario: Test - Gas Only - No Bill - NA - Scottish Power - Suppliers Are Not Same - Variable Tariff
 - @Secenario_01.03 - Scenario: Test - Electricity Only - With Bill - British Gas - NA - Suppliers Are Not Same - Fixed Tariff
+
 
 
 and 6 additional Lower Priority Scenarios
@@ -63,6 +66,7 @@ Cucumber Scenario Format
 ------------------------------------------------------------------------
 Each scenario follows the same Cucumber format using parameters to control the inputs to each test.
 Additional scenarios can be defined in the same format by setting the Cucumber parameters.
+
 
 Given The BGL Test Site is opened in Firefox for "Scenario Name"
 
@@ -92,6 +96,7 @@ Given The BGL Test Site is opened in Firefox for "Scenario Name"
 Test Description
 ------------------------------------------------------------------------
 Each scenario follows a defined work flow based on the input parameters defined in the 'feature' files (..\features\*.feature)
+
 
 (1)  Opens the Firefox browser and navigates to the BGL test site
 
@@ -125,9 +130,11 @@ Whilst running through the scenarios, the testing tool will perform checks to en
 Some of the values entered throughout the scenario are specified in the scenario definition and other values are randomly set (e.g. most of the check boxes are randomly set to one of the available options)
 The tests end at the Result page. On this page additional checks are made to ensure that the main areas of the screen are displayed and also checks are made to ensure that the Current Tariff details are displayed as expected. Again, if any of these checks fail, the step and scenario will be flagged as failed.
 
+
 If running the test using the executable jar (see below for instructions) then the command window will display a summary of the results at the end of the complete test run.
 This summary will show the number of scenarios and steps executed and the number that have passed/failed
 E.g. 
+
 
 > 9 scenarios (9 passed)
 
@@ -151,6 +158,7 @@ Running the Tests - Executable Java File
 One way to quickly run the automated tests is to run the executable jar file.
 An executable Java file has been included so that the automated tests can be run directly from a Windows or Mac command line.
 To run the executable Java file, follow these steps -
+
 
 (1) Copy the 'BGL_Executable_Files.zip' file to a local directory
 
@@ -220,6 +228,7 @@ Future Development
 ------------------------------------------------------------------------
 
 The following are considerations for future developments and improvements to the current tests
+
 
 (1) Add support for other browsers (e.g. IE, Chrome, Safari) and enable this as a parameter
 
