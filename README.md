@@ -131,15 +131,25 @@ An executable Java file has been included so that the automated tests can be run
 To run the executable Java file, follow these steps -
 
 (1) Copy the 'BGL_Executable_Files.zip' file to a local directory
+
 (2) Extract the files, this will provide the following files and directories
+
 ..\features\Priority01.feature	
+
 ..\features\Priority02.feature	
+
 ..\screenshots
+
 ..\target
+
 ..\BGL01.jar
+
 (3) Open a command prompt at this level
+
 (4) Type 'java - jar BGL01.jar' and press enter to run the executable jar file
+
 (5) The executable jar will run and the scenarios will be executed in order as specified in the feature files
+
 
 NOTE: all 9 of the tests will be executed as both of 'Priority...' features files are included in the features folder (if you only want to run the Priority 1 scenarios, remove the Priority02.feature file from this folder.
 
