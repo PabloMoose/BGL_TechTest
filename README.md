@@ -42,7 +42,7 @@ Cucumber Scenarios
 The following Cucumber Scenarios were created -
 
 
-3 High Priority Scenarios - 
+> 3 High Priority Scenarios - 
 NOTE: These scenarios are defined in the '..\features\Priority01.feature' file
 
 - @Secenario_01.01 - Scenario: Test - Gas And Electricity - With Bill - E.ON - nPower - Suppliers Are Not Same - 
@@ -51,7 +51,7 @@ NOTE: These scenarios are defined in the '..\features\Priority01.feature' file
 
 
 
-and 6 additional Lower Priority Scenarios
+> 6 additional Lower Priority Scenarios
 NOTE: These scenarios are defined in the '..\features\Priority02.feature' file
 
 - @Secenario_02.01 - Scenario: Test - Electricity Only - No Bill - British Gas - NA - Suppliers Are Not Same - Variable Tariff
