@@ -24,6 +24,41 @@ Below are deatils of the automated tests created to test the Compare the Market 
 
 
 ------------------------------------------------------------------------
+Files
+------------------------------------------------------------------------
+
+Files within this Repository
+
+> ../features/Priority01.feature 
+
+- High priority cucumber scenario definitions
+
+> ../features/Priority02.feature 
+
+- Lower priority cucumber scenario definitions
+
+> ../src/test/java/runner/TestRunnerJava.java
+
+- Java application file to run the test suite as a Java application
+
+> ../src/test/java/runner/TestRunnerMain.java
+
+- JUnit file to run the test suite as a JUnit test
+
+> ../src/test/java/stepDefinitions/function.java
+
+- Generic functions file used in conjunction with the main testSteps.java file
+
+> ../src/test/java/stepDefinitions/testSteps.java
+
+- Main step definitions relating to the Cucumber Scenario Steps
+
+> ../pom.xml
+
+- Maven dependency file
+
+
+------------------------------------------------------------------------
 Framework
 ------------------------------------------------------------------------
 An automated framework was created using the following tools (versions)
